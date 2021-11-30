@@ -1,10 +1,11 @@
+import { styleGlobal } from "./global/styleGlobal";
 import { Home } from "./pages/Home";
 
 function App() {
   return (
-    <div style={{ height: "100vh", width: '100%'}}>
+    <styleGlobal>
       <Home />
-    </div>
+    </styleGlobal>
   );
 }
 
